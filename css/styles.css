@@ -1,0 +1,150 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
+
+/* ----- Global Styles ----- */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+
+}
+
+h1,h2{
+  font-family: 'Caveat', cursive;
+}
+
+h1{
+  font-size: 80px;
+  margin: 0px;
+}
+
+
+h2{
+  font-size: 40px;
+  margin: 0px;
+}
+
+
+a{
+  color : red;
+}
+
+a:hover{
+  text-decoration: none;
+
+}
+
+.content-wrap{
+  margin: 0 auto;
+  max-width : 950px;
+  padding: 60px 30px;
+}
+
+.contact-info a{
+  margin: 15px;
+}
+
+.logos{
+  float: right;
+  width: 80px;
+
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+
+/* ----- Navigation ----- */
+
+nav{
+  text-align: center;
+  background: white;
+  position: fixed;
+  width:100%;
+  z-index: 1;
+}
+
+nav a{
+  display: inline-block;
+  margin: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
+/* ----- Header and Footer ----- */
+
+header,footer {
+  background: #2B2D42;
+  color: #8D99AE;
+}
+
+header{
+  padding-top: 50px;
+  position: relative;
+}
+
+header div h1, header div h2{
+  color :#EDF2F4;
+}
+
+#headerImage{
+  float: right;
+}
+
+#headerImage{
+  width: 19%;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  border-radius: 50%;
+}
+
+footer{
+  text-align: center;
+}
+
+.btn{
+  text-decoration: none;
+  background: red;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+.download{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* ----- Work Experience ----- */
+
+.work {
+  background: #EDF2F4;
+}
+
+
+/* ----- Education ----- */
+
+.education {
+  background: linear-gradient(rgba(141,153,174,0.6),rgba(141,153,174,0.9)),
+              url(../images/ankara.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+
+.contact-info a{
+  font-size: 30px;
+
+}
